@@ -13,6 +13,7 @@ D10softmax = dense layer with 10 units and softmax activation
 
 ### Network
 
+```
 32C3s1 
 
   BatchNormalization 
@@ -40,7 +41,7 @@ D10softmax = dense layer with 10 units and softmax activation
                         Dropout(0.5)
                         
                           D10softmax
-                          
+```              
  ### Optimizer
  
  Adam with learning rate of 0.001. 
